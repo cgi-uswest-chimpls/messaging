@@ -1,0 +1,6 @@
+---
+applications:
+- name: messaging
+  memory: 512M
+  instances: 1
+  buildpack: https://github.com/cloudfoundry/dotnet-core-buildpack.git

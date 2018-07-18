@@ -1,0 +1,14 @@
+C:\Projects\Core\ChildWelfare\Messaging\bin\Debug\netcoreapp2.1\Messaging.dll
+C:\Projects\Core\ChildWelfare\Messaging\bin\Debug\netcoreapp2.1\Messaging.pdb
+C:\Projects\Core\ChildWelfare\Messaging\bin\Debug\netcoreapp2.1\Messaging.deps.json
+C:\Projects\Core\ChildWelfare\Messaging\bin\Debug\netcoreapp2.1\Messaging.runtimeconfig.json
+C:\Projects\Core\ChildWelfare\Messaging\bin\Debug\netcoreapp2.1\Messaging.runtimeconfig.dev.json
+C:\Projects\Core\ChildWelfare\Messaging\obj\Debug\netcoreapp2.1\Messaging.csprojAssemblyReference.cache
+C:\Projects\Core\ChildWelfare\Messaging\obj\Debug\netcoreapp2.1\Messaging.csproj.CoreCompileInputs.cache
+C:\Projects\Core\ChildWelfare\Messaging\obj\Debug\netcoreapp2.1\Messaging.RazorAssemblyInfo.cache
+C:\Projects\Core\ChildWelfare\Messaging\obj\Debug\netcoreapp2.1\Messaging.RazorAssemblyInfo.cs
+C:\Projects\Core\ChildWelfare\Messaging\obj\Debug\netcoreapp2.1\Messaging.AssemblyInfoInputs.cache
+C:\Projects\Core\ChildWelfare\Messaging\obj\Debug\netcoreapp2.1\Messaging.AssemblyInfo.cs
+C:\Projects\Core\ChildWelfare\Messaging\obj\Debug\netcoreapp2.1\Messaging.RazorTargetAssemblyInfo.cache
+C:\Projects\Core\ChildWelfare\Messaging\obj\Debug\netcoreapp2.1\Messaging.dll
+C:\Projects\Core\ChildWelfare\Messaging\obj\Debug\netcoreapp2.1\Messaging.pdb
