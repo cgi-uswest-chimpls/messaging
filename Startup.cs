@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Pivotal.Discovery.Client;
 using Steeltoe.Extensions.Configuration;
 using Steeltoe.Extensions.Configuration.CloudFoundry;
 
@@ -29,7 +30,8 @@ namespace Preferences
             services.AddOptions();
             services.Configure<CloudFoundryApplicationOptions>(Configuration);
             services.Configure<CloudFoundryServicesOptions>(Configuration); 
-            services.AddDbContext<MessagingContext>();
+            services.AddDbContext<MessagingContext>();            
+            services.AddDiscoveryClient(Configuration);
             services.AddMvc();   
         }
 
@@ -43,7 +45,10 @@ namespace Preferences
             app.UseMvc(routes =>
             {
                 routes.MapRoute("default", "{controller=Root}/{action=Get}/{id?}");
-            });                      
+            });        
+            
+            // Use the Steeltoe Discovery Client service
+            app.UseDiscoveryClient();              
         }               
     }
 }
